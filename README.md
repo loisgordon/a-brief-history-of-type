@@ -1,8 +1,5 @@
 A Brief History of Type
 ======================
-- 
-- 
-
 
 ### Week 06 - 31st October 2016
 
