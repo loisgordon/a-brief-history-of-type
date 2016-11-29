@@ -15,3 +15,7 @@ A Brief History of Type
 - [History table](https://loisgordon.github.io/a-brief-history-of-type/history-table.html) - Creating a table from the History list
 - [Version 03](https://loisgordon.github.io/a-brief-history-of-type/history3.html) - Adding table
 - [Version 04](https://loisgordon.github.io/a-brief-history-of-type/history4.html) - Adding images
+
+### Week 10 - 28th November 2016
+
+- [Version 05](https://loisgordon.github.io/a-brief-history-of-type/history5.html) - Adding CSS
