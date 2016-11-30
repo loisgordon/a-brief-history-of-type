@@ -30,18 +30,18 @@ h3 {
 
 p,
 li {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     line-height: 1.5em;
 }
 
 h1 {
     font-size: 4em;
     margin-top: 1em;
-    margin-bottom: .1em;
+    margin-bottom: .25em;
 }
 
 h2 {
-    font-size: 2.25em;
+    font-size: 2.5em;
     margin-bottom: 1em;
 }
 
@@ -72,6 +72,7 @@ blockquote p {
     hanging-punctuation: first;
     text-indent: -0.45em;
 }
+/* ------------------------- links ------------------------*/
 
 .anchor {
     text-transform: italic;
@@ -107,6 +108,7 @@ nav ul {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    margin: .25em;
 }
 
 nav ul li {
@@ -121,8 +123,10 @@ nav a:hover {
 footer {
     color: darkgrey;
     line-height: 1.3em;
+    padding: 2em 0 1em 0;
+     letter-spacing: .12px;
 }
-
+/*----------------------- footer ul & li -------------- 
 footer ul {
     text-align: center;
     text-transform: none;
@@ -133,13 +137,14 @@ footer ul li {
     display: inline;
     margin: 20px;
     line-height: 3em;
-}
+    padding: 0 0 0 0; 
+} */
 /*----------------------- images -------------- */
 img {
     display: block;
     margin: 1em auto;
-    padding: 0 1em 0 1em;
-    max-width: 100%;
+    padding: 0 1em 1em 1em;
+    max-width: 60%;
     
 }
 /*----------------------- table -------------- 
