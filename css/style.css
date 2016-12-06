@@ -215,10 +215,11 @@ th {
     /*----------------------- Smartphone -------------- */
     @media (max-width: 40em) {
         body {
+            margin: auto;
             width: 90%;
             font-size: 100%;
-            margin: auto;
-            padding-right: 70em;
+           /* padding-right: 3em;
+            padding-left: 2em; */
         }
         /*--------------- smartphone table -------------*/
         table {
