@@ -5,9 +5,10 @@
     margin: 0;
     font-size: 100%;
     line-height: 1em;
+    
 }
 
-body {
+body { 
     width: 75%;
     max-width: 700px;
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -15,6 +16,7 @@ body {
     background-color: #f0f0f0;
     color: #333;
     line-height: 1.8;
+    
 }
 
 
@@ -71,8 +73,8 @@ blockquote p {
     color: dimgrey;
     hanging-punctuation: first;
     text-indent: -0.45em;
-}
 
+}
 
 /* ------------------------- links ------------------------*/
 
@@ -195,7 +197,8 @@ table,
 td,
 th {
     background: rgba (0, 0, 0, .1);
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffff;}
+
     /*----------------------- Tablet -------------- */
     @media (max-width: 50em) {
         body {
@@ -210,7 +213,7 @@ th {
         }
     }
     /*----------------------- Smartphone -------------- */
-    @media (max-width:35em) {
+    @media (max-width: 40em) {
         body {
             margin: 3em;
             width: 90%;
@@ -232,7 +235,7 @@ th {
         }
         /*--------------- smartphone header -------------*/
         h1 {
-            font-size: 1em;
+            font-size: 2em;
             line-height: .75em;
         }
         h2 {
@@ -240,15 +243,12 @@ th {
         }
         /*--------------- smartphone footer -------------*/
         footer {
-            color: darkgrey;
             line-height: 1.5em;
-            font-size: .75em;
+            font-size: .5em;
             padding: 1em;
+            
         }
-        /*--------------- smartphone blockquote --------*/
-        blockquote {
-            font-size: 90%;
-        }
+
         /*--------------- smartphone nav -------------*/
         nav {
             padding: .75em;
@@ -262,9 +262,9 @@ th {
             letter-spacing: 1px;
         }
         nav ul li {
-            display: inline;
-            margin: 2px;
-            font-size: 8em;
+            display: block;
+            margin:2px;
+            font-size: 1em;
         }
         /*--------------- smartphone imgs -------------*/
         img {
