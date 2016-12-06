@@ -217,7 +217,8 @@ th {
         body {
             width: 90%;
             font-size: 100%;
-            margin: 3em;
+            margin: auto;
+            padding-right: 1em;
         }
         /*--------------- smartphone table -------------*/
         table {
