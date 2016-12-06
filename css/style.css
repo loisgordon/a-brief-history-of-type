@@ -218,7 +218,7 @@ th {
             width: 90%;
             font-size: 100%;
             margin: auto;
-            padding-right: 1em;
+            padding-right: 70em;
         }
         /*--------------- smartphone table -------------*/
         table {
@@ -268,7 +268,7 @@ th {
         /*--------------- smartphone imgs -------------*/
         img {
             display: block;
-            margin: 1em auto;
+            margin:  .5em auto;
             padding: 1em;
             max-width: 15em;
         }
