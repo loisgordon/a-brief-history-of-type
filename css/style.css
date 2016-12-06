@@ -1,4 +1,4 @@
-/*------------------ css reset -------------------------*/
+    /*------------------ css reset -------------------------*/
 
 * {
     padding: 0;
@@ -72,6 +72,8 @@ blockquote p {
     hanging-punctuation: first;
     text-indent: -0.45em;
 }
+
+
 /* ------------------------- links ------------------------*/
 
 .anchor {
@@ -119,14 +121,20 @@ nav ul li {
 nav a:hover {
     border-bottom: none;
 }
+
+
 /*----------------------- footer -------------- */
+
 footer {
     color: darkgrey;
     line-height: 1.3em;
     padding: 2em 0 1em 0;
-     letter-spacing: .12px;
+    letter-spacing: .12px;
 }
-/*----------------------- footer ul & li -------------- 
+
+
+/*----------------------- footer ul & li -------------- */
+
 footer ul {
     text-align: center;
     text-transform: none;
@@ -137,18 +145,132 @@ footer ul li {
     display: inline;
     margin: 20px;
     line-height: 3em;
-    padding: 0 0 0 0; 
-} */
+    padding: 0 0 0 0;
+}
+
+
 /*----------------------- images -------------- */
+
 img {
     display: block;
     margin: 1em auto;
     padding: 0 1em 1em 1em;
     max-width: 60%;
-    
 }
-/*----------------------- table -------------- 
+
+
+/*----------------------- table -------------- */
 
 table {
-        text-align:
-} */
+    margin: auto;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+caption {
+    margin-bottom: 1em;
+    text-transform: none;
+    color: crimson;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+table.head,
+th {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: crimson;
+}
+
+th,
+td {
+    padding: .6em;
+}
+
+table,
+td,
+th {
+    background: rgba (0, 0, 0, .1);
+    border: 1px solid #ffffff;
+    /*----------------------- Tablet -------------- */
+    @media (max-width: 50em) {
+        body {
+            width: 85%;
+        }
+        article {
+            width: 95%;
+            padding: 0.5em;
+        }
+        blockquote {
+            font-size: 85%;
+        }
+    }
+    /*----------------------- Smartphone -------------- */
+    @media (max-width:35em) {
+        body {
+            margin: 3em;
+            width: 90%;
+            font-size: 100%;
+            margin: 1em 0em 1em 2em;
+        }
+        /*--------------- smartphone table -------------*/
+        table {
+            font-size: 80%;
+            margin: 1em 1em 2em 0em;
+            width: auto;
+        }
+        /*--------------- smartphone article -------------*/
+        article {
+            width: 100%;
+        }
+        section {
+            width: 100%;
+        }
+        /*--------------- smartphone header -------------*/
+        h1 {
+            font-size: 1em;
+            line-height: .75em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        /*--------------- smartphone footer -------------*/
+        footer {
+            color: darkgrey;
+            line-height: 1.5em;
+            font-size: .75em;
+            padding: 1em;
+        }
+        /*--------------- smartphone blockquote --------*/
+        blockquote {
+            font-size: 90%;
+        }
+        /*--------------- smartphone nav -------------*/
+        nav {
+            padding: .75em;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            margin-bottom: 2em;
+        }
+        nav ul {
+            text-align: center;
+            text-transform: none;
+            letter-spacing: 1px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 2px;
+            font-size: 8em;
+        }
+        /*--------------- smartphone imgs -------------*/
+        img {
+            display: block;
+            margin: 1em auto;
+            padding: 1em;
+            max-width: 15em;
+        }
+    }

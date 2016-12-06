@@ -19,3 +19,7 @@ A Brief History of Type
 ### Week 10 - 28th November 2016
 
 - [Version 05](https://loisgordon.github.io/a-brief-history-of-type/history5.html) - Adding CSS
+
+### Week 11 - 6th December 2016
+
+- [Version 06](https://loisgordon.github.io/a-brief-history-of-type/history6.html) - Adding to CSS
